@@ -1,4 +1,5 @@
 import { StyleSheet } from 'react-native';
+
 import { theme } from '../../global/styles/theme';
 
 export const styles = StyleSheet.create({
@@ -7,18 +8,23 @@ export const styles = StyleSheet.create({
     }, 
 
     content: {
-        marginTop: 90,
+        marginTop: -10,
         width: '100%',
     },
 
+    image: {
+        width: '100%'
+    },
+
     greetings: {
+        marginTop: -75,
         flexDirection: 'row',
         justifyContent: 'center'
     },
 
     welcome: {
         fontFamily: theme.fonts.title700,
-        color: theme.colors.orange100,
+        color: theme.colors.white,
         fontSize: 20
     },
 
@@ -30,22 +36,19 @@ export const styles = StyleSheet.create({
     },
 
     team: {
-        borderWidth: 1,
-        borderColor: theme.colors.gray200,
         height: 45,
-        borderRadius: 8,
-        paddingLeft: 10,
         width: '80%',
+        fontFamily: theme.fonts.title500,
+        color: theme.colors.gray100,
+        borderBottomWidth: 1,
+        borderBottomColor: theme.colors.gray100,
+        paddingLeft: 10,
         marginTop: 15,
-        marginBottom: 15,
+        marginBottom: 45
     },
 
-    password: {
-        borderWidth: 1,
-        borderColor: theme.colors.gray200,
-        height: 45,
-        borderRadius: 8,
-        paddingLeft: 10,
-        width: '80%'
+    button: {
+        flexDirection: 'row',
+        justifyContent: 'center'
     }
-})
+});
