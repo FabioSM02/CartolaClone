@@ -6,7 +6,7 @@
     <img src="https://img.shields.io/static/v1?label=License&message=MIT&color=F5A47D&labelColor=CDCDD1" alt="License" />
 </p>
 
-<img src=".github/Screens.jpg?style=flat" alt="screen" style="zoom:50%;" />
+<img src=".github/Screens.jpg?style=flat" alt="screen" style="zoom:25%;" />
 
 ## </> Projeto
 
@@ -49,4 +49,3 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para
 <div align="center">
     <small>Desenvolvido por Fabio Casa Martins - 2021</small>
 </div>
-
