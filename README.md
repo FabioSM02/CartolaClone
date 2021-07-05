@@ -6,7 +6,7 @@
     <img src="https://img.shields.io/static/v1?label=License&message=MIT&color=F5A47D&labelColor=CDCDD1" alt="License" />
 </p>
 
-<img src=".github/Screens.jpg?style=flat" alt="screen" style="height: 450px;" />
+<img src="./.github/Screens.jpg" alt="screen" style="height: 450px;" />
 
 ## </> Projeto
 
