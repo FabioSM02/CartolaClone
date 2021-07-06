@@ -7,7 +7,7 @@
 </p>
 
 
-<div style="display: flex; justify-content: center;">
+<div style="display: flex; align-items: center;">
     <img src="./.github/Screens.jpg" alt="signIn" align="center" style="width: 150px" />
 </div>
 
