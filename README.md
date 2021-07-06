@@ -7,12 +7,12 @@
 </p>
 
 
-<div style="display: flex; align-items: center;">
-    <img src="./.github/Screens.jpg" alt="signIn" align="center" style="width: 150px" />
+<div align="center">
+    <img src="./.github/Screens.jpg" alt="signIn" align="center" style="width: 170px" />
 </div>
 
 
-## </> Projeto
+## :tophat: Projeto
 
 O projeto é um clone do app Cartola FC desenvolvido para ser um jogo relacionado ao campeonato brasileiro de futebol.
 
@@ -43,6 +43,12 @@ $ expo start
 ```
 
 - Irá abrir uma aba a partir dela basta ler o QR code com o Expo Go
+
+## </>​ Tecnologias utilizadas
+
+- [React-native](https://reactnative.dev/)
+- [Typescript](https://www.typescriptlang.org/)
+- [Expo](https://expo.io/)
 
 ## :page_with_curl: Licença
 
