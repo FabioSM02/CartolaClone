@@ -7,8 +7,8 @@
 </p>
 
 
-<div style="width: 200px" style="display: flex; justify-content: center;">
-    <img src="./.github/Screens.jpg" alt="signIn" />
+<div style="width: 80px" style="display: flex; justify-content: center;">
+    <img src="./.github/Screens.jpg" alt="signIn" align="center" />
 </div>
 
 ## </> Projeto
