@@ -5,7 +5,7 @@ import AppLoading from 'expo-app-loading';
 import { Raleway_500Medium, Raleway_700Bold } from '@expo-google-fonts/raleway';
 import { SourceSansPro_400Regular } from '@expo-google-fonts/source-sans-pro';
 
-import SignIn from './src/screens/SignIn';
+import Routes from './src/Routes';
 
 export default function App() {
     const [fontsLoaded] = useFonts({
@@ -25,7 +25,7 @@ export default function App() {
                 backgroundColor='transparent' 
                 translucent 
             />
-            <SignIn />
+            <Routes />
         </>
     );
 }

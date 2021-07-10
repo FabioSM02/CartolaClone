@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { SafeAreaView, Image, View, Text, TextInput, ScrollView } from 'react-native';
+import { useNavigation } from "@react-navigation/native";
 
 import Background from "../../components/Background";
 import Button from '../../components/Button';
@@ -10,6 +11,12 @@ import { styles } from './styles';
 import IllustrationImg from '../../assets/init.png';
 
 export default function SignIn() {
+
+    const navigation = useNavigation();
+
+    function handleClickSignIn(){
+        navigation.navigate('Home');
+    }
 
     // const [username, setUsername] = useState('');
 
@@ -39,7 +46,7 @@ export default function SignIn() {
                             />
                         </View>
                         <View style={styles.button}>
-                            <Button title='Entrar' activeOpacity={.5} />
+                            <Button title='Entrar' onPress={handleClickSignIn} activeOpacity={.5} />
                         </View>
                     </View>
             </SafeAreaView>
