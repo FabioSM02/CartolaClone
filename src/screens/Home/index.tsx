@@ -9,14 +9,15 @@ import { theme } from "../../global/styles/theme";
 
 export default function Home(){
 
-    const { gray200 } = theme.colors;
+    const { gray100 } = theme.colors;
 
     return (
         <View style={styles.container}>
             <Header title="Dashbord" />
             <View style={styles.gridCalendar}>
+
                 <View style={styles.price}>
-                    <Text>
+                    <Text style={styles.title}>
                         PREÇO DO TIME
                     </Text>
                     <View style={styles.teamPrice}>
@@ -28,21 +29,25 @@ export default function Home(){
                         </Text>
                     </View>
                 </View>
+
                 <View style={styles.timeCloseMarket}>
-                    <Text style={styles.titleTimeCloseMarket}>
+                    <Text style={styles.title}>
                         MERCADO FECHA EM
                     </Text>
-                    <Text style={styles.realHour}>
-                        10/07 - 16:00
-                        <AntDesign name="infocirlce" size={12} color={ gray200 } />
-                    </Text>
+                    <View style={styles.containerDateHour}>
+                        <Text style={styles.realHour}>
+                            10/07 - 16:00
+                        </Text>
+                        <AntDesign name="infocirlce" size={12} color={ gray100 } style={styles.icon} />
+                    </View>
                 </View>
+
                 <View style={styles.Money}>
-                    <Text>
+                    <Text style={styles.title}>
                         VOCÊ AINDA TEM
                     </Text>
-                    <View>
-                        <Text>
+                    <View style={styles.remainingCashContainer}>
+                        <Text style={styles.symbol}>
                            C$ 
                         </Text>
                         <Text style={styles.remainingCash}>

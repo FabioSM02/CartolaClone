@@ -19,6 +19,7 @@ export const theme = {
         red400: '#F1274B',
 
         white:   '#FFFFFF',
+        gray50:  '#EBEBEB',
         gray100: '#CDCDD1',
         gray200: '#A2A7B2',
         gray400: '#787a80',
