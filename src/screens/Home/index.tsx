@@ -7,6 +7,8 @@ import Header from "../../components/Header";
 import { styles } from "./styles";
 import { theme } from "../../global/styles/theme";
 
+import CardPlayer from "../../components/CardPlayer";
+
 interface DetailsTeam {
     priceTeam: number;
     timeCloseMarket: Date;
@@ -17,6 +19,11 @@ export default function Home(){
 
     const { gray100 } = theme.colors;
 
+    return (
+        <CardPlayer />
+    );
+
+    /*
     return (
         <View style={styles.container}>
             <Header title="Dashbord" />
@@ -63,4 +70,5 @@ export default function Home(){
             </View>
         </View>
     );
+    */
 }
