@@ -3,22 +3,20 @@ import { theme } from '../../global/styles/theme';
 
 export const styles = StyleSheet.create({
     position: {
-        flexDirection: 'row',
-        alignItems: 'center',
-        justifyContent: 'center',
-        // width: '90%',
+        width: '90%',
+        marginHorizontal: '5%',
+        marginTop: 15
     },
 
     container: {
-        backgroundColor: theme.colors.gray50,
         borderRadius: 8
     },
 
     imageDetails: {
         flexDirection: 'row',
         justifyContent: 'space-between',
-        marginHorizontal: 15,
-        marginTop: 25
+        marginHorizontal: 10,
+        marginTop: 25,
     },
 
     identificator: {
@@ -57,7 +55,9 @@ export const styles = StyleSheet.create({
     },
 
     cards: {
-        
+        flexDirection: 'row',
+        justifyContent: 'center',
+        marginTop: -70
     }
 
 });

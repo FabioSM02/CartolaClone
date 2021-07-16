@@ -8,7 +8,6 @@ import { styles } from "./styles";
 import { theme } from "../../global/styles/theme";
 
 import CardPlayer from "../../components/CardPlayer";
-
 interface DetailsTeam {
     priceTeam: number;
     timeCloseMarket: Date;
