@@ -58,6 +58,16 @@ export const styles = StyleSheet.create({
         flexDirection: 'row',
         justifyContent: 'center',
         marginTop: -70
+    },
+
+    statistics: {
+        flexDirection: 'row',
+        marginVertical: 10
+    },
+
+    climbed: {
+        color: theme.colors.gray200,
+        paddingLeft: 5
     }
 
 });
